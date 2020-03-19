@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		874EBEE72422B1B70026C9FD /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874EBEE62422B1B70026C9FD /* main.swift */; };
+		874EBEEE2422B31E0026C9FD /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874EBEED2422B31E0026C9FD /* Question.swift */; };
+		874EBEF02422B5440026C9FD /* Millionaire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874EBEEF2422B5440026C9FD /* Millionaire.swift */; };
+		874EBEF22422ECEA0026C9FD /* LifeLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874EBEF12422ECEA0026C9FD /* LifeLine.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		874EBEE32422B1B70026C9FD /* millionaire */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = millionaire; sourceTree = BUILT_PRODUCTS_DIR; };
 		874EBEE62422B1B70026C9FD /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		874EBEED2422B31E0026C9FD /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		874EBEEF2422B5440026C9FD /* Millionaire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Millionaire.swift; sourceTree = "<group>"; };
+		874EBEF12422ECEA0026C9FD /* LifeLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeLine.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				874EBEE62422B1B70026C9FD /* main.swift */,
+				874EBEED2422B31E0026C9FD /* Question.swift */,
+				874EBEEF2422B5440026C9FD /* Millionaire.swift */,
+				874EBEF12422ECEA0026C9FD /* LifeLine.swift */,
 			);
 			path = millionaire;
 			sourceTree = "<group>";
@@ -119,7 +128,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				874EBEF02422B5440026C9FD /* Millionaire.swift in Sources */,
+				874EBEF22422ECEA0026C9FD /* LifeLine.swift in Sources */,
 				874EBEE72422B1B70026C9FD /* main.swift in Sources */,
+				874EBEEE2422B31E0026C9FD /* Question.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
