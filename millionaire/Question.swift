@@ -10,13 +10,16 @@ import Foundation
 
 struct Question {
     let question: String
-    let answer: (String?, String?)
-    var wrongAnswers: [(String?, String?)]   // Contains the other 3 incorrect answers
+    let answer: String
+    let otherChoices: [String]
+    var choices: [(String?, String?)]   // Contains the other shuffled choices to display including the correct answer
     
-    init(question: String, ans: (String?, String?) , wrongAns: [(String?, String?)]) {
+    init(question: String, answer: String, otherChoices: [String]) {
         self.question = question
-        self.answer = ans
-        self.wrongAnswers = wrongAns
+        self.answer = answer
+        self.otherChoices = otherChoices
+        self.choices = []
+        resetChoices()
     }
     
     func getQuestion() -> String {
@@ -24,18 +27,30 @@ struct Question {
     }
 
     func getChoices() -> [String?] {
-        var choices = [answer.0]
-        for (c, _) in wrongAnswers {
-            choices.append(c)
+        var choiceRet = [String?]()
+        for (c, _) in self.choices {
+            choiceRet.append(c)
         }
-        return choices
+        return choiceRet
     }
 
     func getChoicesWithExtraInfo() -> [(choice: String?, extraInfo: String?)] {
-        return [answer] + wrongAnswers
+        return choices
     }
     
     func getAnswer() -> String {
-        return answer.0 ?? ""
+        return answer
+    }
+    
+    mutating func resetChoices() {
+        // TODO Check if necessary to reset array contents
+
+        // assemble the choices and shuffle them
+        self.choices = [(self.answer, nil)]
+        for oc in otherChoices {
+            self.choices.append((oc, nil))
+        }
+        self.choices.shuffle()
+
     }
 }
