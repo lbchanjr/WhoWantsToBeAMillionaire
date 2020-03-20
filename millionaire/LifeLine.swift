@@ -69,10 +69,25 @@ class LifeLineAudience: LifeLine/*, LifeLineInfo*/ {
                                                 // to help user by increasing the percentage of the correct answer
         var percentRemaining = 100.0            // Starting percentage to work on for the dummy polling
         
-        // Look for the index of the answer
+//        print("DEBUG: AI will help with correct answer: ", terminator: "")
+//        print(aiWillHelp)
+        
+        // Check how many choices are to be polled
+        var nonNilChoiceCnt = 0
+        for c in q.choices {
+            if c.0 != nil {
+                nonNilChoiceCnt += 1
+            }
+        }
+        
         for i in 0..<q.choices.count {
-            if i == q.choices.count-1 {
+            if q.choices[i].0 == nil {
+                continue
+            }
+            
+            if i == q.choices.count-1 || nonNilChoiceCnt == 1 {
                 question.choices[i].1 = String(format: "%.1f%%", percentRemaining)
+                break
             }
             else if percentRemaining <= 0.09 {
                 question.choices[i].1 = "0.0%"
@@ -88,7 +103,7 @@ class LifeLineAudience: LifeLine/*, LifeLineInfo*/ {
                     let upperBoundChkNonAns = (percentRemaining<50) ? percentRemaining : (percentRemaining-50)
                     randPercent = (aiWillHelp ? Double.random(in: 0...upperBoundChkNonAns): Double.random(in: 0...percentRemaining))
                 }
-
+                
                 // Round off data to one decimal place
                 randPercent = (randPercent * 10).rounded() / 10
                 
@@ -100,6 +115,7 @@ class LifeLineAudience: LifeLine/*, LifeLineInfo*/ {
                 // Append polling percentage as extra info
                 question.choices[i].1 = String(format: "%.1f%%", randPercent)
                 percentRemaining -= randPercent
+                nonNilChoiceCnt -= 1
             }
         }
         
