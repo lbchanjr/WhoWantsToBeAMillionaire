@@ -40,11 +40,17 @@ class LifeLine5050: LifeLine/*, LifeLineInfo*/ {
             }
         }
         
+        // Shuffle all incorrect answers
+        indexArray.shuffle()
+        
+//        print("DEBUG: ", terminator:" ")
+//        print(indexArray)
+        
         // After this loop indexArray will contain the indices of the wrong answers
         // Shuffle these indices and select the first shuffled value as the index to retain.
         // This is done by setting the choice value of non-selected indices to nil.
         for i in 1..<indexArray.count {
-            question.choices[i].0 = nil
+            question.choices[indexArray[i]].0 = nil
         }
         
         // At this point, the copy of the input question's choices (i.e. "question") will only contain
@@ -75,11 +81,12 @@ class LifeLineAudience: LifeLine/*, LifeLineInfo*/ {
                 var randPercent: Double
                 if q.choices[i].0 == q.answer {
                     // Increase chances of generating a higher percentage if aiWillHelp is true
-                    randPercent = (aiWillHelp ? Double.random(in: 50.1...100): Double.random(in: 0...50))
+                    randPercent = (aiWillHelp ? Double.random(in: 50.1...percentRemaining): Double.random(in: 0...percentRemaining))
                 }
                 else {
                     // Decrease chances of generating a higher percentage if aiWillHelp is false
-                    randPercent = (aiWillHelp ? Double.random(in: 0...50): Double.random(in: 50.1...100))
+                    let upperBoundChkNonAns = (percentRemaining<50) ? percentRemaining : (percentRemaining-50)
+                    randPercent = (aiWillHelp ? Double.random(in: 0...upperBoundChkNonAns): Double.random(in: 0...percentRemaining))
                 }
 
                 // Round off data to one decimal place

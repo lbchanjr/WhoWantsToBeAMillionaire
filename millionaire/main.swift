@@ -42,10 +42,47 @@ try game.loadQuestions(easyQuestions: easyQ, hardQuestions: hardQ)
 
 var gameStatus: GameStatus?
 
+func showQuestion(q: Question) {
+    print(q.getQuestion())
+    
+    let choiceLetters = ["<A> ", "<B> ", "<C> ", "<D> "]
+    
+    let choices = q.getChoicesWithExtraInfo()
+    
+    for i in 0..<choiceLetters.count {
+        print(choiceLetters[i] + (choices[i].0 ?? "") + "\t\t\t" + (choices[i].1 ?? ""))
+    }
+    
+}
+
+
 //repeat {
     let curQuestion = game.getCurrentQuestion()
-    print(curQuestion.getQuestion())
-    for s in curQuestion.getChoices() {
-        print("Answer: " + (s ?? ""))
+    showQuestion(q: curQuestion)
+
+    var lifelines = game.getLifeLines()
+    print(lifelines)
+
+//    if let llQuestion = game.useLifeLine(lifelineType: LifeLineTypes.PhoneAFriend) {
+////        game.updateCurrentLevelQuestion(newQuestion: llQuestion)
+//        showQuestion(q: llQuestion)
+//    }
+    if let llQuestion = game.useLifeLine(lifelineType: LifeLineTypes.AudiencePoll) {
+//        game.updateCurrentLevelQuestion(newQuestion: llQuestion)
+        showQuestion(q: llQuestion)
     }
+
+
+    if let llQuestion = game.useLifeLine(lifelineType: LifeLineTypes.FiftyFifty) {
+        game.updateCurrentLevelQuestion(newQuestion: llQuestion)
+        showQuestion(q: llQuestion)
+    }
+    lifelines = game.getLifeLines()
+    print(lifelines)
+
+    if let llQuestion = game.useLifeLine(lifelineType: LifeLineTypes.PhoneAFriend) {
+//        game.updateCurrentLevelQuestion(newQuestion: llQuestion)
+        showQuestion(q: llQuestion)
+    }
+
 //} while gameStatus != GameStatus.GameOverYouLost && gameStatus != GameStatus.GameOverYouWin
