@@ -2,6 +2,8 @@
 //  enums.swift
 //  millionaire
 //
+//  Description: Custom values used for exceptions, game status and difficulty levels.
+//
 //  Created by Louise Chan on 2020-03-20.
 //  Copyright © 2020 Louise Chan. All rights reserved.
 //

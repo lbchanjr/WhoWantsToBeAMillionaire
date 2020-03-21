@@ -2,6 +2,8 @@
 //  LifeLine.swift
 //  millionaire
 //
+//  Description: Classes used for lifeline processing.
+//
 //  Created by Louise Chan on 2020-03-18.
 //  Copyright © 2020 Louise Chan. All rights reserved.
 //
