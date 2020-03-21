@@ -8,24 +8,13 @@
 
 import Foundation
 
-enum LifeLineTypes {
-    case PhoneAFriend
-    case FiftyFifty
-    case AudiencePoll
-}
-
-//protocol LifeLineInfo {
-//    var lifelineType: LifeLineTypes { get set }
-//}
-
 class LifeLine {
     func processLifeLine(q: Question) -> Question {
         return q
     }
 }
 
-class LifeLine5050: LifeLine/*, LifeLineInfo*/ {
-    //var lifelineType = LifeLineTypes.FiftyFifty
+class LifeLine5050: LifeLine {
     
     override func processLifeLine(q: Question) -> Question {
         var question = q
@@ -60,17 +49,13 @@ class LifeLine5050: LifeLine/*, LifeLineInfo*/ {
     }
 }
 
-class LifeLineAudience: LifeLine/*, LifeLineInfo*/ {
-    //var lifelineType = LifeLineTypes.AudiencePoll
+class LifeLineAudience: LifeLine {
     
     override func processLifeLine(q: Question) -> Question {
         var question = q                        // Make a copy of the question to modify
         let aiWillHelp = Bool.random()          // Simple way to allow the lifeline to decide whether
                                                 // to help user by increasing the percentage of the correct answer
         var percentRemaining = 100.0            // Starting percentage to work on for the dummy polling
-        
-//        print("DEBUG: AI will help with correct answer: ", terminator: "")
-//        print(aiWillHelp)
         
         // Check how many choices are to be polled
         var nonNilChoiceCnt = 0
@@ -124,8 +109,7 @@ class LifeLineAudience: LifeLine/*, LifeLineInfo*/ {
     }
 }
 
-class LifeLinePhoneAFriend: LifeLine/*, LifeLineInfo*/ {
-    //var lifelineType = LifeLineTypes.PhoneAFriend
+class LifeLinePhoneAFriend: LifeLine {
     
     override func processLifeLine(q: Question) -> Question {
         var question = q
@@ -133,7 +117,7 @@ class LifeLinePhoneAFriend: LifeLine/*, LifeLineInfo*/ {
         
         // Generate a random value between 0 to 3 to be able to select a
         // random index for the choices.
-        // If choice has not value (i.e. nil) another random index will be generated
+        // If choice has no value (i.e. nil) another random index will be generated
         repeat {
             randChoiceIndex = Int.random(in: 0...3)
         } while q.choices[randChoiceIndex].0 == nil

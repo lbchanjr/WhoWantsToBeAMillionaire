@@ -8,30 +8,6 @@
 
 import Foundation
 
-enum GameStatus {
-    case GameStarted
-    case GameOverYouLost
-    case GameOverYouWin
-    case GameLevelUp
-    case GameLevelUpWithWalkAway
-}
-
-enum QuestionException: Error {
-    case NotEnoughEasyQuestions
-    case NotEnoughHardQuestions
-    case NoQuestionsLoaded(String)
-}
-
-enum PrizeLevelException: Error {
-    case CashPrizeLevelMismatch(String)
-    case NoCashPrizesLoaded(String)
-    case LevelIsOutOfRange
-}
-
-enum Difficulty {
-    case EASY, HARD
-}
-
 class Millionaire {
     let easyNumLevels: Int
     let hardNumLevels: Int
@@ -143,7 +119,7 @@ class Millionaire {
                 loadLifeLines()
             }
             
-            let levelsPerRound = numLevels/3
+            let levelsPerRound = numLevels / 3
             if currentLevel%levelsPerRound == 0 && currentLevel/levelsPerRound <= 2 {
                 return GameStatus.GameLevelUpWithWalkAway
             }

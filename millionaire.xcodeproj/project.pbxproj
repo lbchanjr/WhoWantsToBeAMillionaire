@@ -11,6 +11,10 @@
 		874EBEEE2422B31E0026C9FD /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874EBEED2422B31E0026C9FD /* Question.swift */; };
 		874EBEF02422B5440026C9FD /* Millionaire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874EBEEF2422B5440026C9FD /* Millionaire.swift */; };
 		874EBEF22422ECEA0026C9FD /* LifeLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874EBEF12422ECEA0026C9FD /* LifeLine.swift */; };
+		874EBEF4242578C40026C9FD /* prompts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874EBEF3242578C40026C9FD /* prompts.swift */; };
+		874EBEF6242579CB0026C9FD /* data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874EBEF5242579CB0026C9FD /* data.swift */; };
+		874EBEF824257A530026C9FD /* display.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874EBEF724257A530026C9FD /* display.swift */; };
+		874EBEFA242592950026C9FD /* enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874EBEF9242592950026C9FD /* enums.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +35,10 @@
 		874EBEED2422B31E0026C9FD /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		874EBEEF2422B5440026C9FD /* Millionaire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Millionaire.swift; sourceTree = "<group>"; };
 		874EBEF12422ECEA0026C9FD /* LifeLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeLine.swift; sourceTree = "<group>"; };
+		874EBEF3242578C40026C9FD /* prompts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = prompts.swift; sourceTree = "<group>"; };
+		874EBEF5242579CB0026C9FD /* data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = data.swift; sourceTree = "<group>"; };
+		874EBEF724257A530026C9FD /* display.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = display.swift; sourceTree = "<group>"; };
+		874EBEF9242592950026C9FD /* enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = enums.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +75,10 @@
 				874EBEED2422B31E0026C9FD /* Question.swift */,
 				874EBEEF2422B5440026C9FD /* Millionaire.swift */,
 				874EBEF12422ECEA0026C9FD /* LifeLine.swift */,
+				874EBEF3242578C40026C9FD /* prompts.swift */,
+				874EBEF5242579CB0026C9FD /* data.swift */,
+				874EBEF724257A530026C9FD /* display.swift */,
+				874EBEF9242592950026C9FD /* enums.swift */,
 			);
 			path = millionaire;
 			sourceTree = "<group>";
@@ -129,8 +141,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				874EBEF02422B5440026C9FD /* Millionaire.swift in Sources */,
+				874EBEF824257A530026C9FD /* display.swift in Sources */,
+				874EBEF6242579CB0026C9FD /* data.swift in Sources */,
 				874EBEF22422ECEA0026C9FD /* LifeLine.swift in Sources */,
+				874EBEF4242578C40026C9FD /* prompts.swift in Sources */,
 				874EBEE72422B1B70026C9FD /* main.swift in Sources */,
+				874EBEFA242592950026C9FD /* enums.swift in Sources */,
 				874EBEEE2422B31E0026C9FD /* Question.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
