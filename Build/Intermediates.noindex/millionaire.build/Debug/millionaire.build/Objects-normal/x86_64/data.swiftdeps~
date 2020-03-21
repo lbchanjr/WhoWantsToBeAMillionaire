@@ -40,4 +40,4 @@ depends-external:
 - "/Applications/Xcode10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
 - "/Applications/Xcode10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "a9eff044714d6fced1856883e94a13c2"
+interface-hash: "a3be0c4596ce1ff4f685352e3beba905"
