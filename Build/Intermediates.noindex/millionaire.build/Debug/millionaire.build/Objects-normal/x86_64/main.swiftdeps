@@ -1,0 +1,300 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "gameDiff"
+- "gameOpt"
+provides-nominal:
+provides-member:
+provides-dynamic-lookup:
+depends-top-level:
+- "!="
+- "&&"
+- "+"
+- "..<"
+- "=="
+- "AssignmentPrecedence"
+- "Character"
+- "Difficulty"
+- "GameStatus"
+- "LifeLine"
+- "LifeLineTypes"
+- "Millionaire"
+- "Question"
+- "StringLiteralType"
+- "TernaryPrecedence"
+- "UnicodeScalarType"
+- "difficultQuestionsArray"
+- "easyPrizeMoneyArray"
+- "easyQuestionsArray"
+- "gameDiff"
+- "gameOpt"
+- "hardPrizeMoneyArray"
+- "print"
+- "promptAnswer"
+- "promptFinalAnswer"
+- "promptGameDifficulty"
+- "promptLifeLines"
+- "promptWalkAway"
+- "showData"
+- "||"
+depends-member:
+- ["Sa", "count"]
+- ["Sa", "subscript"]
+- ["s10ArraySliceV", "0"]
+- ["SK", "0"]
+- ["SK", "count"]
+- ["SK", "firstIndex"]
+- ["SK", "subscript"]
+- ["s7CVarArgP", "count"]
+- ["s7CVarArgP", "firstIndex"]
+- ["s7CVarArgP", "subscript"]
+- ["SJ", "init"]
+- ["Sl", "0"]
+- ["Sl", "count"]
+- ["Sl", "firstIndex"]
+- ["Sl", "subscript"]
+- ["SL", "firstIndex"]
+- ["SL", "init"]
+- ["SL", "utf16Offset"]
+- ["10Foundation15ContiguousBytesP", "0"]
+- ["10Foundation15ContiguousBytesP", "count"]
+- ["10Foundation15ContiguousBytesP", "subscript"]
+- ["s28CustomDebugStringConvertibleP", "0"]
+- ["s28CustomDebugStringConvertibleP", "count"]
+- ["s28CustomDebugStringConvertibleP", "firstIndex"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "subscript"]
+- ["s17CustomReflectableP", "0"]
+- ["s17CustomReflectableP", "count"]
+- ["s17CustomReflectableP", "firstIndex"]
+- ["s17CustomReflectableP", "init"]
+- ["s17CustomReflectableP", "subscript"]
+- ["s23CustomStringConvertibleP", "0"]
+- ["s23CustomStringConvertibleP", "appendInterpolation"]
+- ["s23CustomStringConvertibleP", "appendLiteral"]
+- ["s23CustomStringConvertibleP", "count"]
+- ["s23CustomStringConvertibleP", "firstIndex"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "subscript"]
+- ["10Foundation12DataProtocolP", "0"]
+- ["10Foundation12DataProtocolP", "count"]
+- ["10Foundation12DataProtocolP", "subscript"]
+- ["Se", "count"]
+- ["Se", "firstIndex"]
+- ["Se", "subscript"]
+- ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- ["s26DefaultStringInterpolationV", "appendLiteral"]
+- ["SD", "count"]
+- ["11millionaire10DifficultyO", "EASY"]
+- ["11millionaire10DifficultyO", "HARD"]
+- ["SE", "count"]
+- ["SE", "firstIndex"]
+- ["SE", "subscript"]
+- ["SQ", "0"]
+- ["SQ", "AudiencePoll"]
+- ["SQ", "EASY"]
+- ["SQ", "FiftyFifty"]
+- ["SQ", "GameLevelUpWithWalkAway"]
+- ["SQ", "GameNoLevelChange"]
+- ["SQ", "GameOverYouLost"]
+- ["SQ", "GameOverYouWin"]
+- ["SQ", "HARD"]
+- ["SQ", "PhoneAFriend"]
+- ["SQ", "count"]
+- ["SQ", "firstIndex"]
+- ["SQ", "init"]
+- ["SQ", "subscript"]
+- ["SQ", "utf16Offset"]
+- ["s25ExpressibleByArrayLiteralP", "0"]
+- ["s25ExpressibleByArrayLiteralP", "count"]
+- ["s25ExpressibleByArrayLiteralP", "subscript"]
+- ["s30ExpressibleByDictionaryLiteralP", "count"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "firstIndex"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s32ExpressibleByStringInterpolationP", "firstIndex"]
+- ["s26ExpressibleByStringLiteralP", "firstIndex"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "firstIndex"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["11millionaire10GameStatusO", "GameLevelUpWithWalkAway"]
+- ["11millionaire10GameStatusO", "GameNoLevelChange"]
+- ["11millionaire10GameStatusO", "GameOverYouLost"]
+- ["11millionaire10GameStatusO", "GameOverYouWin"]
+- ["11millionaire10GameStatusO", "deinit"]
+- ["SH", "0"]
+- ["SH", "AudiencePoll"]
+- ["SH", "EASY"]
+- ["SH", "FiftyFifty"]
+- ["SH", "GameLevelUpWithWalkAway"]
+- ["SH", "GameNoLevelChange"]
+- ["SH", "GameOverYouLost"]
+- ["SH", "GameOverYouWin"]
+- ["SH", "HARD"]
+- ["SH", "PhoneAFriend"]
+- ["SH", "count"]
+- ["SH", "firstIndex"]
+- ["SH", "init"]
+- ["SH", "subscript"]
+- ["SH", "utf16Offset"]
+- ["SS5IndexV", "utf16Offset"]
+- ["11millionaire13LifeLineTypesO", "AudiencePoll"]
+- ["11millionaire13LifeLineTypesO", "FiftyFifty"]
+- ["11millionaire13LifeLineTypesO", "PhoneAFriend"]
+- ["11millionaire13LifeLineTypesO", "deinit"]
+- ["s25LosslessStringConvertibleP", "firstIndex"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["11millionaire11MillionaireC", "answerQuestion"]
+- ["11millionaire11MillionaireC", "getCurrentLevel"]
+- ["11millionaire11MillionaireC", "getCurrentLevelCashPrize"]
+- ["11millionaire11MillionaireC", "getCurrentQuestion"]
+- ["11millionaire11MillionaireC", "getLifeLines"]
+- ["11millionaire11MillionaireC", "getPrizeMoney"]
+- ["11millionaire11MillionaireC", "init"]
+- ["11millionaire11MillionaireC", "loadCashPrizes"]
+- ["11millionaire11MillionaireC", "loadQuestions"]
+- ["11millionaire11MillionaireC", "updateCurrentLevelQuestion"]
+- ["11millionaire11MillionaireC", "useLifeLine"]
+- ["s10MirrorPathP", "firstIndex"]
+- ["SM", "0"]
+- ["SM", "count"]
+- ["SM", "subscript"]
+- ["10Foundation19MutableDataProtocolP", "count"]
+- ["10Foundation19MutableDataProtocolP", "subscript"]
+- ["So8NSCodingP", "firstIndex"]
+- ["So9NSCopyingP", "firstIndex"]
+- ["So21NSItemProviderReadingP", "firstIndex"]
+- ["So21NSItemProviderWritingP", "firstIndex"]
+- ["So16NSMutableCopyingP", "firstIndex"]
+- ["So8NSObjectC", "firstIndex"]
+- ["So8NSObjectP", "firstIndex"]
+- ["So14NSSecureCodingP", "firstIndex"]
+- ["So8NSStringC", "firstIndex"]
+- ["11millionaire8QuestionV", "choices"]
+- ["11millionaire8QuestionV", "getChoices"]
+- ["Sk", "0"]
+- ["Sk", "count"]
+- ["Sk", "subscript"]
+- ["Sm", "0"]
+- ["Sm", "count"]
+- ["Sm", "firstIndex"]
+- ["Sm", "subscript"]
+- ["SY", "AudiencePoll"]
+- ["SY", "FiftyFifty"]
+- ["SY", "PhoneAFriend"]
+- ["ST", "0"]
+- ["ST", "count"]
+- ["ST", "firstIndex"]
+- ["ST", "subscript"]
+- ["SS", "firstIndex"]
+- ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- ["s27StringInterpolationProtocolP", "appendLiteral"]
+- ["Sy", "firstIndex"]
+- ["s16TextOutputStreamP", "appendInterpolation"]
+- ["s16TextOutputStreamP", "appendLiteral"]
+- ["s16TextOutputStreamP", "firstIndex"]
+- ["s20TextOutputStreamableP", "firstIndex"]
+- ["s20TextOutputStreamableP", "init"]
+- ["s14_ArrayProtocolP", "0"]
+- ["s14_ArrayProtocolP", "count"]
+- ["s14_ArrayProtocolP", "subscript"]
+- ["s30_CustomPlaygroundQuickLookableP", "firstIndex"]
+- ["s30_CustomPlaygroundQuickLookableP", "init"]
+- ["s24_DestructorSafeContainerP", "0"]
+- ["s24_DestructorSafeContainerP", "count"]
+- ["s24_DestructorSafeContainerP", "subscript"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "firstIndex"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "firstIndex"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "firstIndex"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s19_HasContiguousBytesP", "count"]
+- ["s19_HasContiguousBytesP", "firstIndex"]
+- ["s19_HasContiguousBytesP", "subscript"]
+- ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- ["s35_HasCustomAnyHashableRepresentationP", "firstIndex"]
+- ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "firstIndex"]
+- ["s21_ObjectiveCBridgeableP", "count"]
+- ["s21_ObjectiveCBridgeableP", "firstIndex"]
+- ["s21_ObjectiveCBridgeableP", "subscript"]
+depends-nominal:
+- "Sa"
+- "s10ArraySliceV"
+- "SK"
+- "s7CVarArgP"
+- "SJ"
+- "Sl"
+- "SL"
+- "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "10Foundation12DataProtocolP"
+- "Se"
+- "s26DefaultStringInterpolationV"
+- "SD"
+- "11millionaire10DifficultyO"
+- "SE"
+- "SQ"
+- "s25ExpressibleByArrayLiteralP"
+- "s30ExpressibleByDictionaryLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s32ExpressibleByStringInterpolationP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "11millionaire10GameStatusO"
+- "SH"
+- "SS5IndexV"
+- "11millionaire13LifeLineTypesO"
+- "s25LosslessStringConvertibleP"
+- "11millionaire11MillionaireC"
+- "s10MirrorPathP"
+- "SM"
+- "10Foundation19MutableDataProtocolP"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So21NSItemProviderReadingP"
+- "So21NSItemProviderWritingP"
+- "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So14NSSecureCodingP"
+- "So8NSStringC"
+- "11millionaire8QuestionV"
+- "Sk"
+- "Sm"
+- "SY"
+- "ST"
+- "SS"
+- "s27StringInterpolationProtocolP"
+- "Sy"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "s14_ArrayProtocolP"
+- "s30_CustomPlaygroundQuickLookableP"
+- "s24_DestructorSafeContainerP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s19_HasContiguousBytesP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode10.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode10.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode10.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode10.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode10.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode10.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode10.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode10.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode10.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode10.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "d5b243b9718c08b6eb878de5737a3ccb"

@@ -1,0 +1,355 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Millionaire"
+provides-nominal:
+- "11millionaire11MillionaireC"
+provides-member:
+- ["11millionaire11MillionaireC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "%"
+- !private "&&"
+- !private "*"
+- !private "+"
+- !private "+="
+- !private "-"
+- !private "..<"
+- !private "/"
+- !private "<"
+- !private "<="
+- !private "=="
+- !private ">="
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- "Difficulty"
+- "FloatLiteralType"
+- "GameStatus"
+- "Int"
+- "IntegerLiteralType"
+- "LifeLine"
+- !private "LifeLine5050"
+- !private "LifeLineAudience"
+- !private "LifeLinePhoneAFriend"
+- "LifeLineTypes"
+- "Millionaire"
+- !private "PrizeLevelException"
+- "Question"
+- !private "QuestionException"
+- "String"
+- !private "StringLiteralType"
+depends-member:
+- !private ["Sa", "count"]
+- ["Sa", "init"]
+- !private ["Sa", "isEmpty"]
+- !private ["Sa", "removeAll"]
+- !private ["Sa", "shuffled"]
+- !private ["Sa", "subscript"]
+- !private ["s10ArraySliceV", "answer"]
+- !private ["SK", "answer"]
+- !private ["SK", "count"]
+- ["SK", "init"]
+- !private ["SK", "isEmpty"]
+- !private ["SK", "removeAll"]
+- !private ["SK", "shuffled"]
+- !private ["SK", "subscript"]
+- !private ["s7CVarArgP", "count"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isEmpty"]
+- !private ["s7CVarArgP", "removeAll"]
+- !private ["s7CVarArgP", "shuffled"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["Sl", "answer"]
+- !private ["Sl", "count"]
+- ["Sl", "init"]
+- !private ["Sl", "isEmpty"]
+- !private ["Sl", "removeAll"]
+- !private ["Sl", "shuffled"]
+- !private ["Sl", "subscript"]
+- !private ["10Foundation15ContiguousBytesP", "answer"]
+- !private ["10Foundation15ContiguousBytesP", "count"]
+- ["10Foundation15ContiguousBytesP", "init"]
+- !private ["10Foundation15ContiguousBytesP", "isEmpty"]
+- !private ["10Foundation15ContiguousBytesP", "removeAll"]
+- !private ["10Foundation15ContiguousBytesP", "shuffled"]
+- !private ["10Foundation15ContiguousBytesP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "answer"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "removeAll"]
+- !private ["s28CustomDebugStringConvertibleP", "shuffled"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s17CustomReflectableP", "answer"]
+- !private ["s17CustomReflectableP", "count"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "isEmpty"]
+- !private ["s17CustomReflectableP", "removeAll"]
+- !private ["s17CustomReflectableP", "shuffled"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "answer"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isEmpty"]
+- !private ["s23CustomStringConvertibleP", "removeAll"]
+- !private ["s23CustomStringConvertibleP", "shuffled"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["10Foundation12DataProtocolP", "answer"]
+- !private ["10Foundation12DataProtocolP", "count"]
+- ["10Foundation12DataProtocolP", "init"]
+- !private ["10Foundation12DataProtocolP", "isEmpty"]
+- !private ["10Foundation12DataProtocolP", "removeAll"]
+- !private ["10Foundation12DataProtocolP", "shuffled"]
+- !private ["10Foundation12DataProtocolP", "subscript"]
+- !private ["Se", "count"]
+- ["Se", "init"]
+- !private ["Se", "isEmpty"]
+- !private ["Se", "removeAll"]
+- !private ["Se", "shuffled"]
+- !private ["Se", "subscript"]
+- !private ["SD", "isEmpty"]
+- !private ["SD", "subscript"]
+- !private ["11millionaire10DifficultyO", "EASY"]
+- !private ["11millionaire10DifficultyO", "HARD"]
+- !private ["11millionaire10DifficultyO", "deinit"]
+- !private ["SE", "count"]
+- ["SE", "init"]
+- !private ["SE", "isEmpty"]
+- !private ["SE", "removeAll"]
+- !private ["SE", "shuffled"]
+- !private ["SE", "subscript"]
+- !private ["SQ", "AudiencePoll"]
+- !private ["SQ", "EASY"]
+- !private ["SQ", "FiftyFifty"]
+- !private ["SQ", "GameLevelUp"]
+- !private ["SQ", "GameLevelUpWithWalkAway"]
+- !private ["SQ", "GameOverYouLost"]
+- !private ["SQ", "GameOverYouWin"]
+- !private ["SQ", "HARD"]
+- !private ["SQ", "PhoneAFriend"]
+- !private ["SQ", "answer"]
+- !private ["SQ", "count"]
+- ["SQ", "init"]
+- !private ["SQ", "isEmpty"]
+- !private ["SQ", "removeAll"]
+- !private ["SQ", "shuffled"]
+- !private ["SQ", "subscript"]
+- !private ["s5ErrorP", "CashPrizeLevelMismatch"]
+- !private ["s5ErrorP", "LevelIsOutOfRange"]
+- !private ["s5ErrorP", "NoCashPrizesLoaded"]
+- !private ["s5ErrorP", "NoQuestionsLoaded"]
+- !private ["s5ErrorP", "NotEnoughEasyQuestions"]
+- !private ["s5ErrorP", "NotEnoughHardQuestions"]
+- !private ["s25ExpressibleByArrayLiteralP", "answer"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "isEmpty"]
+- !private ["s25ExpressibleByArrayLiteralP", "removeAll"]
+- !private ["s25ExpressibleByArrayLiteralP", "shuffled"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "isEmpty"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["11millionaire10GameStatusO", "GameLevelUp"]
+- !private ["11millionaire10GameStatusO", "GameLevelUpWithWalkAway"]
+- !private ["11millionaire10GameStatusO", "GameOverYouLost"]
+- !private ["11millionaire10GameStatusO", "GameOverYouWin"]
+- !private ["SH", "AudiencePoll"]
+- !private ["SH", "EASY"]
+- !private ["SH", "FiftyFifty"]
+- !private ["SH", "GameLevelUp"]
+- !private ["SH", "GameLevelUpWithWalkAway"]
+- !private ["SH", "GameOverYouLost"]
+- !private ["SH", "GameOverYouWin"]
+- !private ["SH", "HARD"]
+- !private ["SH", "PhoneAFriend"]
+- !private ["SH", "answer"]
+- !private ["SH", "count"]
+- ["SH", "init"]
+- !private ["SH", "isEmpty"]
+- !private ["SH", "removeAll"]
+- !private ["SH", "shuffled"]
+- !private ["SH", "subscript"]
+- !private ["11millionaire8LifeLineC", "init"]
+- !private ["11millionaire8LifeLineC", "processLifeLine"]
+- !private ["11millionaire12LifeLine5050C", "init"]
+- !private ["11millionaire16LifeLineAudienceC", "init"]
+- !private ["11millionaire20LifeLinePhoneAFriendC", "init"]
+- !private ["11millionaire13LifeLineTypesO", "AudiencePoll"]
+- !private ["11millionaire13LifeLineTypesO", "FiftyFifty"]
+- !private ["11millionaire13LifeLineTypesO", "PhoneAFriend"]
+- ["11millionaire13LifeLineTypesO", "deinit"]
+- ["11millionaire11MillionaireC", "Difficulty"]
+- ["11millionaire11MillionaireC", "GameStatus"]
+- ["11millionaire11MillionaireC", "Int"]
+- ["11millionaire11MillionaireC", "LifeLine"]
+- !private ["11millionaire11MillionaireC", "LifeLine5050"]
+- !private ["11millionaire11MillionaireC", "LifeLineAudience"]
+- !private ["11millionaire11MillionaireC", "LifeLinePhoneAFriend"]
+- ["11millionaire11MillionaireC", "LifeLineTypes"]
+- !private ["11millionaire11MillionaireC", "PrizeLevelException"]
+- ["11millionaire11MillionaireC", "Question"]
+- !private ["11millionaire11MillionaireC", "QuestionException"]
+- ["11millionaire11MillionaireC", "String"]
+- ["11millionaire11MillionaireC", "answerQuestion"]
+- ["11millionaire11MillionaireC", "currentLevel"]
+- ["11millionaire11MillionaireC", "difficulty"]
+- ["11millionaire11MillionaireC", "easyNumLevels"]
+- ["11millionaire11MillionaireC", "getCashPrizeAtLevel"]
+- ["11millionaire11MillionaireC", "getCurrentLevel"]
+- ["11millionaire11MillionaireC", "getCurrentLevelCashPrize"]
+- ["11millionaire11MillionaireC", "getCurrentQuestion"]
+- ["11millionaire11MillionaireC", "getLifeLines"]
+- ["11millionaire11MillionaireC", "getPrizeMoney"]
+- ["11millionaire11MillionaireC", "hardNumLevels"]
+- ["11millionaire11MillionaireC", "init"]
+- ["11millionaire11MillionaireC", "levelCashPrizes"]
+- ["11millionaire11MillionaireC", "lifeLineLevel"]
+- ["11millionaire11MillionaireC", "lifeLines"]
+- ["11millionaire11MillionaireC", "loadCashPrizes"]
+- ["11millionaire11MillionaireC", "loadLifeLines"]
+- ["11millionaire11MillionaireC", "loadQuestions"]
+- ["11millionaire11MillionaireC", "numLevels"]
+- ["11millionaire11MillionaireC", "playerName"]
+- ["11millionaire11MillionaireC", "prizeMoney"]
+- ["11millionaire11MillionaireC", "questions"]
+- ["11millionaire11MillionaireC", "shuffleQuestions"]
+- ["11millionaire11MillionaireC", "updateCurrentLevelQuestion"]
+- ["11millionaire11MillionaireC", "useLifeLine"]
+- !private ["SM", "answer"]
+- !private ["SM", "count"]
+- ["SM", "init"]
+- !private ["SM", "isEmpty"]
+- !private ["SM", "removeAll"]
+- !private ["SM", "shuffled"]
+- !private ["SM", "subscript"]
+- !private ["10Foundation19MutableDataProtocolP", "count"]
+- ["10Foundation19MutableDataProtocolP", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "isEmpty"]
+- !private ["10Foundation19MutableDataProtocolP", "removeAll"]
+- !private ["10Foundation19MutableDataProtocolP", "shuffled"]
+- !private ["10Foundation19MutableDataProtocolP", "subscript"]
+- !private ["11millionaire19PrizeLevelExceptionO", "CashPrizeLevelMismatch"]
+- !private ["11millionaire19PrizeLevelExceptionO", "LevelIsOutOfRange"]
+- !private ["11millionaire19PrizeLevelExceptionO", "NoCashPrizesLoaded"]
+- !private ["11millionaire19PrizeLevelExceptionO", "deinit"]
+- !private ["11millionaire8QuestionV", "answer"]
+- !private ["11millionaire17QuestionExceptionO", "NoQuestionsLoaded"]
+- !private ["11millionaire17QuestionExceptionO", "NotEnoughEasyQuestions"]
+- !private ["11millionaire17QuestionExceptionO", "NotEnoughHardQuestions"]
+- !private ["11millionaire17QuestionExceptionO", "deinit"]
+- !private ["Sk", "answer"]
+- !private ["Sk", "count"]
+- ["Sk", "init"]
+- !private ["Sk", "isEmpty"]
+- !private ["Sk", "removeAll"]
+- !private ["Sk", "shuffled"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", "answer"]
+- !private ["Sm", "count"]
+- ["Sm", "init"]
+- !private ["Sm", "isEmpty"]
+- !private ["Sm", "removeAll"]
+- !private ["Sm", "shuffled"]
+- !private ["Sm", "subscript"]
+- !private ["SY", "AudiencePoll"]
+- !private ["SY", "FiftyFifty"]
+- !private ["SY", "PhoneAFriend"]
+- !private ["ST", "answer"]
+- !private ["ST", "count"]
+- ["ST", "init"]
+- !private ["ST", "isEmpty"]
+- !private ["ST", "removeAll"]
+- !private ["ST", "shuffled"]
+- !private ["ST", "subscript"]
+- !private ["s14_ArrayProtocolP", "answer"]
+- !private ["s14_ArrayProtocolP", "count"]
+- ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "isEmpty"]
+- !private ["s14_ArrayProtocolP", "removeAll"]
+- !private ["s14_ArrayProtocolP", "shuffled"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s24_DestructorSafeContainerP", "answer"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "isEmpty"]
+- !private ["s24_DestructorSafeContainerP", "removeAll"]
+- !private ["s24_DestructorSafeContainerP", "shuffled"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s19_HasContiguousBytesP", "count"]
+- ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "isEmpty"]
+- !private ["s19_HasContiguousBytesP", "removeAll"]
+- !private ["s19_HasContiguousBytesP", "shuffled"]
+- !private ["s19_HasContiguousBytesP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "isEmpty"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "removeAll"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "shuffled"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "isEmpty"]
+- !private ["s21_ObjectiveCBridgeableP", "removeAll"]
+- !private ["s21_ObjectiveCBridgeableP", "shuffled"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+depends-nominal:
+- "Sa"
+- !private "s10ArraySliceV"
+- "SK"
+- "s7CVarArgP"
+- "Sl"
+- "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "10Foundation12DataProtocolP"
+- "Se"
+- !private "SD"
+- !private "11millionaire10DifficultyO"
+- "SE"
+- "SQ"
+- !private "s5ErrorP"
+- "s25ExpressibleByArrayLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "11millionaire10GameStatusO"
+- "SH"
+- !private "11millionaire8LifeLineC"
+- !private "11millionaire12LifeLine5050C"
+- !private "11millionaire16LifeLineAudienceC"
+- !private "11millionaire20LifeLinePhoneAFriendC"
+- "11millionaire13LifeLineTypesO"
+- "11millionaire11MillionaireC"
+- "SM"
+- "10Foundation19MutableDataProtocolP"
+- !private "11millionaire19PrizeLevelExceptionO"
+- !private "11millionaire8QuestionV"
+- !private "11millionaire17QuestionExceptionO"
+- "Sk"
+- "Sm"
+- !private "SY"
+- "ST"
+- "s14_ArrayProtocolP"
+- "s24_DestructorSafeContainerP"
+- "s19_HasContiguousBytesP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode10.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode10.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode10.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode10.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode10.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode10.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode10.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode10.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode10.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode10.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "f3e4c466d0da14924dc2914ee9b4d137"

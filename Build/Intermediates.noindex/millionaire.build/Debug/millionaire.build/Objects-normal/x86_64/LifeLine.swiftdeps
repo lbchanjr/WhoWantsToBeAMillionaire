@@ -1,0 +1,387 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "LifeLine"
+- "LifeLine5050"
+- "LifeLineAudience"
+- "LifeLinePhoneAFriend"
+provides-nominal:
+- "11millionaire8LifeLineC"
+- "11millionaire12LifeLine5050C"
+- "11millionaire16LifeLineAudienceC"
+- "11millionaire20LifeLinePhoneAFriendC"
+provides-member:
+- ["11millionaire8LifeLineC", ""]
+- ["11millionaire12LifeLine5050C", ""]
+- ["11millionaire16LifeLineAudienceC", ""]
+- ["11millionaire20LifeLinePhoneAFriendC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- !private "*"
+- !private "+="
+- !private "-"
+- !private "-="
+- !private "..."
+- !private "..<"
+- !private "/"
+- !private "<"
+- !private "<="
+- !private "=="
+- !private ">"
+- "AssignmentPrecedence"
+- !private "Bool"
+- !private "Double"
+- !private "Int"
+- "LifeLine"
+- "LifeLine5050"
+- "LifeLineAudience"
+- "LifeLinePhoneAFriend"
+- "Question"
+- !private "String"
+- "TernaryPrecedence"
+- !private "||"
+depends-member:
+- !private ["s18AdditiveArithmeticP", "random"]
+- !private ["s18AdditiveArithmeticP", "rounded"]
+- !private ["Sa", "append"]
+- !private ["Sa", "count"]
+- !private ["Sa", "init"]
+- !private ["Sa", "shuffle"]
+- !private ["Sa", "subscript"]
+- !private ["s10ArraySliceV", "0"]
+- !private ["s10ArraySliceV", "1"]
+- !private ["SK", "0"]
+- !private ["SK", "1"]
+- !private ["SK", "append"]
+- !private ["SK", "count"]
+- !private ["SK", "init"]
+- !private ["SK", "shuffle"]
+- !private ["SK", "subscript"]
+- !private ["SB", "random"]
+- !private ["SB", "rounded"]
+- !private ["Sz", "random"]
+- !private ["Sb", "random"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "random"]
+- !private ["s7CVarArgP", "rounded"]
+- !private ["s7CVarArgP", "shuffle"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["Sl", "0"]
+- !private ["Sl", "1"]
+- !private ["Sl", "append"]
+- !private ["Sl", "count"]
+- !private ["Sl", "init"]
+- !private ["Sl", "shuffle"]
+- !private ["Sl", "subscript"]
+- !private ["SL", "init"]
+- !private ["SL", "random"]
+- !private ["SL", "rounded"]
+- !private ["10Foundation15ContiguousBytesP", "0"]
+- !private ["10Foundation15ContiguousBytesP", "1"]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- !private ["10Foundation15ContiguousBytesP", "count"]
+- !private ["10Foundation15ContiguousBytesP", "init"]
+- !private ["10Foundation15ContiguousBytesP", "shuffle"]
+- !private ["10Foundation15ContiguousBytesP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "0"]
+- !private ["s28CustomDebugStringConvertibleP", "1"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "random"]
+- !private ["s28CustomDebugStringConvertibleP", "rounded"]
+- !private ["s28CustomDebugStringConvertibleP", "shuffle"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s17CustomReflectableP", "0"]
+- !private ["s17CustomReflectableP", "1"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "random"]
+- !private ["s17CustomReflectableP", "rounded"]
+- !private ["s17CustomReflectableP", "shuffle"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "0"]
+- !private ["s23CustomStringConvertibleP", "1"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "random"]
+- !private ["s23CustomStringConvertibleP", "rounded"]
+- !private ["s23CustomStringConvertibleP", "shuffle"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["10Foundation12DataProtocolP", "0"]
+- !private ["10Foundation12DataProtocolP", "1"]
+- !private ["10Foundation12DataProtocolP", "append"]
+- !private ["10Foundation12DataProtocolP", "count"]
+- !private ["10Foundation12DataProtocolP", "init"]
+- !private ["10Foundation12DataProtocolP", "shuffle"]
+- !private ["10Foundation12DataProtocolP", "subscript"]
+- !private ["Se", "append"]
+- !private ["Se", "count"]
+- !private ["Se", "init"]
+- !private ["Se", "random"]
+- !private ["Se", "rounded"]
+- !private ["Se", "shuffle"]
+- !private ["Se", "subscript"]
+- !private ["Sd", "random"]
+- !private ["Sd", "rounded"]
+- !private ["SE", "append"]
+- !private ["SE", "count"]
+- !private ["SE", "init"]
+- !private ["SE", "random"]
+- !private ["SE", "rounded"]
+- !private ["SE", "shuffle"]
+- !private ["SE", "subscript"]
+- !private ["SQ", "0"]
+- !private ["SQ", "1"]
+- !private ["SQ", "append"]
+- !private ["SQ", "count"]
+- !private ["SQ", "init"]
+- !private ["SQ", "random"]
+- !private ["SQ", "rounded"]
+- !private ["SQ", "shuffle"]
+- !private ["SQ", "subscript"]
+- !private ["s25ExpressibleByArrayLiteralP", "0"]
+- !private ["s25ExpressibleByArrayLiteralP", "1"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "shuffle"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s27ExpressibleByBooleanLiteralP", "random"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "random"]
+- !private ["s25ExpressibleByFloatLiteralP", "rounded"]
+- !private ["s27ExpressibleByIntegerLiteralP", "random"]
+- !private ["s27ExpressibleByIntegerLiteralP", "rounded"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "random"]
+- !private ["SF", "random"]
+- !private ["SF", "rounded"]
+- !private ["SH", "0"]
+- !private ["SH", "1"]
+- !private ["SH", "append"]
+- !private ["SH", "count"]
+- !private ["SH", "init"]
+- !private ["SH", "random"]
+- !private ["SH", "rounded"]
+- !private ["SH", "shuffle"]
+- !private ["SH", "subscript"]
+- !private ["Si", "random"]
+- !private ["11millionaire8LifeLineC", "Bool"]
+- !private ["11millionaire8LifeLineC", "Double"]
+- !private ["11millionaire8LifeLineC", "Int"]
+- ["11millionaire8LifeLineC", "Question"]
+- !private ["11millionaire8LifeLineC", "String"]
+- ["11millionaire8LifeLineC", ""]
+- ["11millionaire8LifeLineC", "init"]
+- ["11millionaire8LifeLineC", "processLifeLine"]
+- !private ["11millionaire12LifeLine5050C", "Int"]
+- ["11millionaire12LifeLine5050C", "Question"]
+- ["11millionaire12LifeLine5050C", "init"]
+- ["11millionaire12LifeLine5050C", "processLifeLine"]
+- !private ["11millionaire16LifeLineAudienceC", "Bool"]
+- !private ["11millionaire16LifeLineAudienceC", "Double"]
+- ["11millionaire16LifeLineAudienceC", "Question"]
+- !private ["11millionaire16LifeLineAudienceC", "String"]
+- ["11millionaire16LifeLineAudienceC", "init"]
+- ["11millionaire16LifeLineAudienceC", "processLifeLine"]
+- !private ["11millionaire20LifeLinePhoneAFriendC", "Int"]
+- ["11millionaire20LifeLinePhoneAFriendC", "Question"]
+- ["11millionaire20LifeLinePhoneAFriendC", "init"]
+- ["11millionaire20LifeLinePhoneAFriendC", "processLifeLine"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "random"]
+- !private ["s25LosslessStringConvertibleP", "rounded"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "random"]
+- !private ["SM", "0"]
+- !private ["SM", "1"]
+- !private ["SM", "append"]
+- !private ["SM", "count"]
+- !private ["SM", "init"]
+- !private ["SM", "shuffle"]
+- !private ["SM", "subscript"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- !private ["10Foundation19MutableDataProtocolP", "count"]
+- !private ["10Foundation19MutableDataProtocolP", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "shuffle"]
+- !private ["10Foundation19MutableDataProtocolP", "subscript"]
+- !private ["Sj", "random"]
+- !private ["Sj", "rounded"]
+- !private ["11millionaire8QuestionV", "answer"]
+- !private ["11millionaire8QuestionV", "choices"]
+- !private ["Sk", "0"]
+- !private ["Sk", "1"]
+- !private ["Sk", "append"]
+- !private ["Sk", "count"]
+- !private ["Sk", "init"]
+- !private ["Sk", "shuffle"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", "0"]
+- !private ["Sm", "1"]
+- !private ["Sm", "append"]
+- !private ["Sm", "count"]
+- !private ["Sm", "init"]
+- !private ["Sm", "shuffle"]
+- !private ["Sm", "subscript"]
+- !private ["s10SIMDScalarP", "random"]
+- !private ["s10SIMDScalarP", "rounded"]
+- !private ["ST", "0"]
+- !private ["ST", "1"]
+- !private ["ST", "append"]
+- !private ["ST", "count"]
+- !private ["ST", "init"]
+- !private ["ST", "shuffle"]
+- !private ["ST", "subscript"]
+- !private ["SZ", "random"]
+- !private ["s13SignedNumericP", "random"]
+- !private ["s13SignedNumericP", "rounded"]
+- !private ["Sx", "random"]
+- !private ["Sx", "rounded"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "random"]
+- !private ["s20TextOutputStreamableP", "rounded"]
+- !private ["s14_ArrayProtocolP", "0"]
+- !private ["s14_ArrayProtocolP", "1"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "shuffle"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s15_CVarArgAlignedP", "random"]
+- !private ["s15_CVarArgAlignedP", "rounded"]
+- !private ["s22_CVarArgPassedAsDoubleP", "random"]
+- !private ["s22_CVarArgPassedAsDoubleP", "rounded"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "random"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "rounded"]
+- !private ["s24_DestructorSafeContainerP", "0"]
+- !private ["s24_DestructorSafeContainerP", "1"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "shuffle"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "random"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "random"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "rounded"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "random"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "rounded"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s19_HasContiguousBytesP", "count"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "shuffle"]
+- !private ["s19_HasContiguousBytesP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "random"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "rounded"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "shuffle"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "random"]
+- !private ["s21_ObjectiveCBridgeableP", "rounded"]
+- !private ["s21_ObjectiveCBridgeableP", "shuffle"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "Sa"
+- !private "s10ArraySliceV"
+- !private "SK"
+- !private "SB"
+- !private "Sz"
+- !private "Sb"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "Sd"
+- !private "SE"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- !private "SF"
+- !private "SH"
+- !private "Si"
+- "11millionaire8LifeLineC"
+- "11millionaire12LifeLine5050C"
+- "11millionaire16LifeLineAudienceC"
+- "11millionaire20LifeLinePhoneAFriendC"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "Sj"
+- !private "11millionaire8QuestionV"
+- !private "Sk"
+- !private "Sm"
+- !private "s10SIMDScalarP"
+- !private "ST"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s14_ArrayProtocolP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode10.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode10.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode10.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode10.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode10.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode10.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode10.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode10.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode10.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode10.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "46e5dad7d1ebd434b2aa9f23c54d3b0d"

@@ -1,0 +1,153 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "GameStatus"
+- "QuestionException"
+- "PrizeLevelException"
+- "Difficulty"
+- "LifeLineTypes"
+provides-nominal:
+- "11millionaire10GameStatusO"
+- "11millionaire17QuestionExceptionO"
+- "11millionaire19PrizeLevelExceptionO"
+- "11millionaire10DifficultyO"
+- "11millionaire13LifeLineTypesO"
+provides-member:
+- ["11millionaire10GameStatusO", ""]
+- ["11millionaire17QuestionExceptionO", ""]
+- ["11millionaire19PrizeLevelExceptionO", ""]
+- ["11millionaire10DifficultyO", ""]
+- ["11millionaire13LifeLineTypesO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "Difficulty"
+- "Error"
+- !private "FloatLiteralType"
+- "GameStatus"
+- !private "IntegerLiteralType"
+- "LifeLineTypes"
+- "PrizeLevelException"
+- "QuestionException"
+- "String"
+- "StringLiteralType"
+- !private "_findStringSwitchCase"
+- !private "~="
+depends-member:
+- ["11millionaire10DifficultyO", "=="]
+- ["11millionaire10DifficultyO", "EASY"]
+- ["11millionaire10DifficultyO", "HARD"]
+- ["11millionaire10DifficultyO", "__derived_enum_equals"]
+- ["11millionaire10DifficultyO", "_rawHashValue"]
+- ["11millionaire10DifficultyO", "deinit"]
+- ["11millionaire10DifficultyO", "hash"]
+- ["11millionaire10DifficultyO", "hashValue"]
+- ["SQ", "=="]
+- ["SQ", "RawValue"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- !private ["SQ", "_findStringSwitchCase"]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- ["SQ", "rawValue"]
+- ["s5ErrorP", ""]
+- ["s5ErrorP", "_code"]
+- ["s5ErrorP", "_domain"]
+- ["s5ErrorP", "_getEmbeddedNSError"]
+- ["s5ErrorP", "_userInfo"]
+- ["11millionaire10GameStatusO", "=="]
+- ["11millionaire10GameStatusO", "GameLevelUp"]
+- ["11millionaire10GameStatusO", "GameLevelUpWithWalkAway"]
+- ["11millionaire10GameStatusO", "GameNoLevelChange"]
+- ["11millionaire10GameStatusO", "GameOverYouLost"]
+- ["11millionaire10GameStatusO", "GameOverYouWin"]
+- ["11millionaire10GameStatusO", "GameStarted"]
+- ["11millionaire10GameStatusO", "__derived_enum_equals"]
+- ["11millionaire10GameStatusO", "_rawHashValue"]
+- ["11millionaire10GameStatusO", "deinit"]
+- ["11millionaire10GameStatusO", "hash"]
+- ["11millionaire10GameStatusO", "hashValue"]
+- ["SH", "=="]
+- ["SH", "RawValue"]
+- ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- !private ["SH", "_findStringSwitchCase"]
+- ["SH", "_rawHashValue"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- ["SH", "rawValue"]
+- !private ["s6HasherV", "combine"]
+- ["11millionaire13LifeLineTypesO", "=="]
+- ["11millionaire13LifeLineTypesO", "AudiencePoll"]
+- ["11millionaire13LifeLineTypesO", "FiftyFifty"]
+- ["11millionaire13LifeLineTypesO", "PhoneAFriend"]
+- ["11millionaire13LifeLineTypesO", "RawValue"]
+- ["11millionaire13LifeLineTypesO", "_Default_RawValue"]
+- !private ["11millionaire13LifeLineTypesO", "_findStringSwitchCase"]
+- ["11millionaire13LifeLineTypesO", "_rawHashValue"]
+- ["11millionaire13LifeLineTypesO", "deinit"]
+- ["11millionaire13LifeLineTypesO", "hash"]
+- ["11millionaire13LifeLineTypesO", "hashValue"]
+- ["11millionaire13LifeLineTypesO", "init"]
+- ["11millionaire13LifeLineTypesO", "rawValue"]
+- ["11millionaire19PrizeLevelExceptionO", "CashPrizeLevelMismatch"]
+- ["11millionaire19PrizeLevelExceptionO", "LevelIsOutOfRange"]
+- ["11millionaire19PrizeLevelExceptionO", "NoCashPrizesLoaded"]
+- ["11millionaire19PrizeLevelExceptionO", "String"]
+- ["11millionaire19PrizeLevelExceptionO", "_code"]
+- ["11millionaire19PrizeLevelExceptionO", "_domain"]
+- ["11millionaire19PrizeLevelExceptionO", "_getEmbeddedNSError"]
+- ["11millionaire19PrizeLevelExceptionO", "_userInfo"]
+- ["11millionaire19PrizeLevelExceptionO", "deinit"]
+- ["11millionaire17QuestionExceptionO", "NoQuestionsLoaded"]
+- ["11millionaire17QuestionExceptionO", "NotEnoughEasyQuestions"]
+- ["11millionaire17QuestionExceptionO", "NotEnoughHardQuestions"]
+- ["11millionaire17QuestionExceptionO", "String"]
+- ["11millionaire17QuestionExceptionO", "_code"]
+- ["11millionaire17QuestionExceptionO", "_domain"]
+- ["11millionaire17QuestionExceptionO", "_getEmbeddedNSError"]
+- ["11millionaire17QuestionExceptionO", "_userInfo"]
+- ["11millionaire17QuestionExceptionO", "deinit"]
+- ["SY", "=="]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- !private ["SY", "_findStringSwitchCase"]
+- ["SY", "_rawHashValue"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- ["SY", "rawValue"]
+depends-nominal:
+- "11millionaire10DifficultyO"
+- "SQ"
+- "s5ErrorP"
+- "11millionaire10GameStatusO"
+- "SH"
+- !private "s6HasherV"
+- "11millionaire13LifeLineTypesO"
+- "11millionaire19PrizeLevelExceptionO"
+- "11millionaire17QuestionExceptionO"
+- "SY"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode10.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode10.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode10.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode10.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode10.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode10.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode10.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode10.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode10.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode10.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "f49f8c45b5c6222555fa05be53918a79"
