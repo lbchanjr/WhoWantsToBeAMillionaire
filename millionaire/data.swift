@@ -37,5 +37,5 @@ let difficultQuestionsArray = [Question(question: "Which of the music on the epi
                           Question(question: "The “Pua alohalo” is Hawaii’s official state what?", answer: "FLOWER", otherChoices: ["BIRD", "FRUIT", "ANIMAL"]),
                           Question(question: "What song’s famous melody was written in 1893 by sisters Patty and Mildred Hill?", answer: "HAPPY BIRTHDAY TO YOU", otherChoices: ["STAR SPANGLED BANNER", "JINGLE BELLS", "AMAZING GRACE"]),
                           Question(question: "Which of these countries’ people usually eat with fork and spoon, only using chopsticks for noodles?", answer: "THAILAND", otherChoices: ["CHINA", "VIETNAM", "SOUTH KOREA"]),
-                          Question(question: "What extremely tall author once used the pen name John Lange, a German surnamed meaning 'long'?", answer: "MICHAEL CRICHTON", otherChoices: ["STEPHEN KING", "WILLIAM SHAKESPEAR", "ROBERT LUDLUM"]),
+                          Question(question: "What extremely tall author once used the pen name John Lange, a German surnamed meaning 'long'?", answer: "MICHAEL CRICHTON", otherChoices: ["STEPHEN KING", "WILLIAM SHAKESPEARE", "ROBERT LUDLUM"]),
                           Question(question: "A phillumenist is a collector of what?", answer: "MATCHBOOKS", otherChoices: ["STAMPS", "FLAGS", "BOOKS"])]
