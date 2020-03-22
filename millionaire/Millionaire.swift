@@ -197,6 +197,11 @@ class Millionaire {
         return (currentLevel + 1)
     }
     
+    // Get number of levels available for the game.
+    func getNumberOfLevels() -> Int {
+        return numLevels
+    }
+    
     // Get the cash prize for the current level
     func getCurrentLevelCashPrize() throws -> Int {
         guard levelCashPrizes.isEmpty == false else {

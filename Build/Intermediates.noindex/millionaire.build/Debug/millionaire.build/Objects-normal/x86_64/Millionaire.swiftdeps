@@ -198,6 +198,7 @@ depends-member:
 - ["11millionaire11MillionaireC", "getCurrentLevelCashPrize"]
 - ["11millionaire11MillionaireC", "getCurrentQuestion"]
 - ["11millionaire11MillionaireC", "getLifeLines"]
+- ["11millionaire11MillionaireC", "getNumberOfLevels"]
 - ["11millionaire11MillionaireC", "getPrizeMoney"]
 - ["11millionaire11MillionaireC", "hardNumLevels"]
 - ["11millionaire11MillionaireC", "init"]
@@ -352,4 +353,4 @@ depends-external:
 - "/Applications/Xcode10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
 - "/Applications/Xcode10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "f3e4c466d0da14924dc2914ee9b4d137"
+interface-hash: "b7d4bf6d4e2155b14afa7528043939da"

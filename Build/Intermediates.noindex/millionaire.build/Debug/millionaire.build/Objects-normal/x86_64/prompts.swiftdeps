@@ -1,11 +1,12 @@
 ### Swift dependencies file v0 ###
 provides-top-level:
 - "invalidInputMessage"
+- "promptCommonProcessor"
 - "promptGameDifficulty"
 - "promptAnswer"
-- "promptLifeLines"
 - "promptFinalAnswer"
 - "promptWalkAway"
+- "promptLifeLines"
 provides-nominal:
 provides-member:
 provides-dynamic-lookup:
@@ -17,19 +18,23 @@ depends-top-level:
 - !private "??"
 - "AssignmentPrecedence"
 - !private "BooleanLiteralType"
+- !private "FloatLiteralType"
 - "Int"
+- !private "IntegerLiteralType"
 - "LifeLine"
 - "LifeLineTypes"
 - "String"
+- "StringLiteralType"
+- !private "UnicodeScalarType"
 - "invalidInputMessage"
 - !private "print"
 - "promptAnswer"
+- "promptCommonProcessor"
 - "promptFinalAnswer"
 - "promptGameDifficulty"
 - "promptLifeLines"
 - "promptWalkAway"
 - !private "readLine"
-- !private "||"
 depends-member:
 - !private ["s18AdditiveArithmeticP", "init"]
 - !private ["SK", "init"]
@@ -270,4 +275,4 @@ depends-external:
 - "/Applications/Xcode10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
 - "/Applications/Xcode10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "764f872f92f67db32574adce92b8d484"
+interface-hash: "2db35c2e134ba0a80001a738fc7d82e5"

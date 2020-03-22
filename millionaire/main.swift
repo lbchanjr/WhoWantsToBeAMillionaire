@@ -150,17 +150,22 @@ if let game = gameOpt {
                         gameStatus = try game.answerQuestion(answer: curQuestionChoices[choiceOffset]!)
                         
                         // Check if player answered the question correctly.
-                        if gameStatus != GameStatus.GameOverYouLost {
+                        if gameStatus == GameStatus.GameLevelUp {
                             // Display message if answer is correct and continue looping to the next game level.
                             print("\n\t*** You chose the right answer! Proceeding to next level... ***")
                         }
-                        
                         // Check if we can offer user to walk away or continue with the game.
-                        if gameStatus == GameStatus.GameLevelUpWithWalkAway {
+                        else if gameStatus == GameStatus.GameLevelUpWithWalkAway {
+                            // Indicate that answer is correct and prompt if player wants to walk away from game
+                            print("\n\t*** You chose the right answer! ***")
                             let walkawayResult = promptWalkAway(walkAwayCash: game.getPrizeMoney())
                             if walkawayResult == "W" {
                                 // User chose to walk away, exit the game loop and display game results.
                                 break;
+                            }
+                            else {
+                                // Player has decided to continue playing.
+                                print("\n\t*** Proceeding to next level... ***")
                             }
                         }
                     }
@@ -184,6 +189,7 @@ if let game = gameOpt {
             print(" You didn't win any money.")
             print("*********************************************")
         case .GameOverYouWin:
+            print("\t*** You chose the right answer! Final level completed... ***\n")
             print("*********************************************")
             print(" Congratulations! You are now a millionaire.")
             print(" You won $1,000,000!")

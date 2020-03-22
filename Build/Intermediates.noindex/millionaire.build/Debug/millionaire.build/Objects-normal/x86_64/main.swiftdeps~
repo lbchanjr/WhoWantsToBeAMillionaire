@@ -93,6 +93,7 @@ depends-member:
 - ["SQ", "AudiencePoll"]
 - ["SQ", "EASY"]
 - ["SQ", "FiftyFifty"]
+- ["SQ", "GameLevelUp"]
 - ["SQ", "GameLevelUpWithWalkAway"]
 - ["SQ", "GameNoLevelChange"]
 - ["SQ", "GameOverYouLost"]
@@ -114,6 +115,7 @@ depends-member:
 - ["s26ExpressibleByStringLiteralP", "firstIndex"]
 - ["s33ExpressibleByUnicodeScalarLiteralP", "firstIndex"]
 - ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["11millionaire10GameStatusO", "GameLevelUp"]
 - ["11millionaire10GameStatusO", "GameLevelUpWithWalkAway"]
 - ["11millionaire10GameStatusO", "GameNoLevelChange"]
 - ["11millionaire10GameStatusO", "GameOverYouLost"]
@@ -123,6 +125,7 @@ depends-member:
 - ["SH", "AudiencePoll"]
 - ["SH", "EASY"]
 - ["SH", "FiftyFifty"]
+- ["SH", "GameLevelUp"]
 - ["SH", "GameLevelUpWithWalkAway"]
 - ["SH", "GameNoLevelChange"]
 - ["SH", "GameOverYouLost"]
@@ -297,4 +300,4 @@ depends-external:
 - "/Applications/Xcode10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
 - "/Applications/Xcode10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "d5b243b9718c08b6eb878de5737a3ccb"
+interface-hash: "e1546321cc59160ed62df3b905f8254a"

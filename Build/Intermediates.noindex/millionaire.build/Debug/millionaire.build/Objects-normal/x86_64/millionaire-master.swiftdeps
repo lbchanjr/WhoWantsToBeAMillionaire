@@ -1,12 +1,12 @@
 version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
 options: "21453a3409bdcf999a5d879e6a5eb6a7"
-build_time: [1584806926, 952468000]
+build_time: [1584845412, 497321000]
 inputs:
-  "/Users/lchan/Documents/gbc/swift-workspace/millionaire/millionaire/Millionaire.swift": [1584766405, 370328889]
+  "/Users/lchan/Documents/gbc/swift-workspace/millionaire/millionaire/Millionaire.swift": [1584844483, 509508924]
   "/Users/lchan/Documents/gbc/swift-workspace/millionaire/millionaire/display.swift": [1584767505, 517138880]
   "/Users/lchan/Documents/gbc/swift-workspace/millionaire/millionaire/data.swift": [1584806925, 34858108]
   "/Users/lchan/Documents/gbc/swift-workspace/millionaire/millionaire/LifeLine.swift": [1584766572, 170617709]
-  "/Users/lchan/Documents/gbc/swift-workspace/millionaire/millionaire/prompts.swift": [1584767113, 789020958]
-  "/Users/lchan/Documents/gbc/swift-workspace/millionaire/millionaire/main.swift": [1584766927, 607269626]
+  "/Users/lchan/Documents/gbc/swift-workspace/millionaire/millionaire/prompts.swift": [1584843844, 330462764]
+  "/Users/lchan/Documents/gbc/swift-workspace/millionaire/millionaire/main.swift": [1584845377, 485574650]
   "/Users/lchan/Documents/gbc/swift-workspace/millionaire/millionaire/enums.swift": [1584767559, 514836291]
   "/Users/lchan/Documents/gbc/swift-workspace/millionaire/millionaire/Question.swift": [1584766494, 543702856]

@@ -13,41 +13,56 @@ import Foundation
 // Common error message for invalid inputs.
 let invalidInputMessage = "\n\t***Invalid input. Try again.***"
 
-// Allows user to choose the difficulty level of the game.
-func promptGameDifficulty() -> String {
+func promptCommonProcessor(message: String, inputChoices: [String]) -> String {
     repeat {
-        print("\nEnter game difficulty ('E' for easy, 'H' for hard): ", terminator: "")
-        guard let gameLevel = readLine() else {
+        // Print the prompt message
+        print(message, terminator: "")
+        // Ensure that input is not nil before processing it.
+        guard let input = readLine() else {
+            // Input is nil, specify invalid input message
             print(invalidInputMessage)
             continue
         }
-        let choice = gameLevel.uppercased()
-        if choice == "E" || choice == "H" {
-            return choice
+        // Convert input to uppercase so that letter case will
+        // be ignored during comparison
+        let choice = input.uppercased()
+        for ic in inputChoices {
+            // Check if input matches any of the available choices
+            if choice == ic {
+                // Return the matching choice string
+                return choice
+            }
         }
-        else {
-            print(invalidInputMessage)
-        }
-    } while true
+        
+        // Input does not match any of the choices, inform app
+        // that the input is invalid
+        print(invalidInputMessage)
+
+    } while true        // Loop indefinitely
+}
+
+// Allows user to choose the difficulty level of the game.
+func promptGameDifficulty() -> String {
+    let promptMessage = "\nEnter game difficulty ('E' for easy, 'H' for hard): "
+    return promptCommonProcessor(message: promptMessage, inputChoices: ["E", "H"])
 }
 
 // Prompts user to choose for the correct answer or to use a lifeline.
 func promptAnswer() -> String {
-    repeat {
-        print("\nEnter [A, B, C or D] to select an answer or enter [L] to use a lifeline: ", terminator: "")
+    let promptMessage = "\nEnter [A, B, C or D] to select an answer or enter [L] to use a lifeline: "
+    return promptCommonProcessor(message: promptMessage, inputChoices: ["A", "B", "C", "D", "L"])
+}
 
-        guard let gameLevel = readLine() else {
-            print(invalidInputMessage)
-            continue
-        }
-        let choice = gameLevel.uppercased()
-        if choice == "A" || choice == "B" || choice == "C" || choice == "D" || choice == "L" {
-            return choice
-        }
-        else {
-            print(invalidInputMessage)
-        }
-    } while true
+// Prompts to user to confirm the answer to the current question being asked.
+func promptFinalAnswer() -> String {
+    let promptMessage = "\nIs that your final answer? (Enter 'Y' to confirm, 'N' to change answer): "
+    return promptCommonProcessor(message: promptMessage, inputChoices: ["Y", "N"])
+}
+
+// Prompts the user whether to continue to the next level or walk away from the game with money.
+func promptWalkAway(walkAwayCash: Int) -> String {
+    let promptMessage = "\nDo you want to continue or walk away with $\(walkAwayCash) (Enter 'C' to continue or 'W' to walk away): "
+    return promptCommonProcessor(message: promptMessage, inputChoices: ["W", "C"])
 }
 
 // Prompts user to select which available lifeline to use for the current question being asked.
@@ -82,42 +97,4 @@ func promptLifeLines(ll: [LifeLineTypes: LifeLine]) -> LifeLineTypes {
     } while true
 }
 
-// Prompts to user to confirm the answer to the current question being asked.
-func promptFinalAnswer() -> String {
-    repeat {
-        print("\nIs that your final answer? (Enter 'Y' to confirm, 'N' to change answer): ", terminator: "")
-        
-        guard let response = readLine() else {
-            print(invalidInputMessage)
-            continue
-        }
-        
-        let choice = response.uppercased()
-        if choice == "Y" || choice == "N" {
-            return choice
-        }
-        else {
-            print(invalidInputMessage)
-        }
-    } while true
 
-}
-
-// Prompts the user whether to continue to the next level or walk away from the game with money.
-func promptWalkAway(walkAwayCash: Int) -> String {
-    repeat {
-        print("\nDo you want to continue or walk away with $\(walkAwayCash) (Enter 'C' to continue or 'W' to walk away): ", terminator: "")
-        
-        guard let response = readLine() else {
-            print(invalidInputMessage)
-            continue
-        }
-        let choice = response.uppercased()
-        if choice == "W" || choice == "C" {
-            return choice
-        }
-        else {
-            print(invalidInputMessage)
-        }
-    } while true
-}
