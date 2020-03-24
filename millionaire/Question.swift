@@ -54,8 +54,6 @@ struct Question {
     // Reload and reshuffle all the possible answers to the question
     // Any modifications done by the 50:50 lifeline will be discarded.
     mutating func resetChoices() {
-        // TODO Check if necessary to reset array contents
-
         // assemble the choices and shuffle them
         self.choices = [(self.answer, nil)]
         for oc in otherChoices {

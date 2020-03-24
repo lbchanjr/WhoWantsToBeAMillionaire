@@ -34,9 +34,6 @@ class LifeLine5050: LifeLine {
         // Shuffle all incorrect answers
         indexArray.shuffle()
         
-//        print("DEBUG: ", terminator:" ")
-//        print(indexArray)
-        
         // After this loop indexArray will contain the indices of the wrong answers
         // Shuffle these indices and select the first shuffled value as the index to retain.
         // This is done by setting the choice value of non-selected indices to nil.
@@ -106,7 +103,7 @@ class LifeLineAudience: LifeLine {
             }
         }
         
-        // Provide update question structure to the caller
+        // Provide updated question structure to the caller
         return question
     }
 }
